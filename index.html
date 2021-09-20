@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Calculate Time ago</title>
+</head>
+<body>
+    <main>
+        <div class="description">
+            <h2>Karademy</h2>
+            <h4>Mini Challenge Hard</h4>
+            <p>
+                1-Write a function to accept a date time object or a timestamp
+                integer. This function work on date and time. if it is within 5
+                minutes form current time it returns “Just Now”. If it is 5
+                minutes or greater but less than 10 minutes from current time,
+                It returns “Around 10 minutes ago”. It is after 10 minutes but
+                it is still within day before midnight it shows “Today at
+                14:45”. Finally if the current time is more than 24 hours from
+                the given time it shows “Yesterday at 14:50” or “10 days ago at
+                10:01”.
+            </p>
+            <p>
+                Samples:</br>
+                Given time is :</br>
+                new Date(‘2020-09-09 10:10’); Current time is 2020-09-09 10:12</br>
+                Output is:Just Now
+            </p>
+            <p>
+                2-Write a function to accept a class or ID name and print the
+                given date at step one inside it.
+            </p>
+        </div>
+        <form id="form">
+            <div>
+                <label for="select-date">select date:
+                    <input id="select-date" type="date"/>
+                </label>
+                <label for="select-time">select time:
+                    <input id="select-time" type="time"/>
+                </label>
+                <button>show out put</button>
+            </div>
+            <div id="output-container">
+                <p id="output-placeholder"></p>
+            </div>
+        </form>
+    </main>
+<script src="app.js"/>
+</body>
+</html>
