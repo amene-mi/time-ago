@@ -1,7 +1,8 @@
 function howLongAgo(seletedDate, today) {
     let str;
-
-    if (selectedDate.getHours() === today.getHours()) {
+    debugger;
+    if (seletedDate.getHours() === today.getHours()) {
+        debugger;
         const diffInMin = today.getMinutes() - seletedDate.getMinutes();
         if (diffInMin < 5) {
             str = 'Just now';
@@ -12,6 +13,8 @@ function howLongAgo(seletedDate, today) {
             'Today at ' + seletedDate.getHours() + ':' + seletedDate.getMinutes();
         }
     } else {
+        debugger;
+        str = 
         'Today at ' + seletedDate.getHours() + ':' + seletedDate.getMinutes();
     }
     return str;

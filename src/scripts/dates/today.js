@@ -1,5 +1,6 @@
 function isToday(selectedDate, today) {
-    if (today.getFullYear() === selectedDate.getFullYear) {
+    debugger;
+    if (today.getYear() === selectedDate.getYear()) {
         if (today.getMonth() === selectedDate.getMonth()) {
             return today.getDate() === selectedDate.getDate();
         } else {

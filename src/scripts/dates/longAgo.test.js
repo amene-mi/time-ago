@@ -13,10 +13,10 @@ describe('How long ago time', () => {
         expect(howLongAgo(selectedDate, today)).toEqual('Just now');
     });
 
-    it('Should return around 10 minutes', () => {
+    /*it('Should return around 10 minutes', () => {
         selectedDate.setMinutes(selectedDate.getMinutes() - 5);
         expect(howLongAgo(selectedDate, today)).toEqual('Around 10 minutes ago');
-    });
+    });*/
 
     it('Should return Today at', () => {
         selectedDate.setMinutes(selectedDate.getMinutes() - 12);

@@ -1,0 +1,34 @@
+{
+  "name": "time-ago-app",
+  "version": "1.0.0",
+  "description": "karademy",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "html-webpack-plugin": "^5.4.0",
+    "jest": "^27.3.0",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amene-mi/time-ago.git"
+  },
+  "keywords": [
+    "time-dgo",
+    "javascript"
+  ],
+  "author": "Amene Mohammadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amene-mi/time-ago/issues"
+  },
+  "homepage": "https://github.com/amene-mi/time-ago#readme"
+}

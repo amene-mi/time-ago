@@ -5,7 +5,7 @@ const showOutput = require('./printOutPut');
 function printHowLongAgo(date,time){
     const seletedDate = new Date(`${date} ${time}`);
     const today = new Date();
-
+    debugger;
     if (isToday(seletedDate,today)){
         showOutput(howLongAgo(seletedDate, today));
     }
